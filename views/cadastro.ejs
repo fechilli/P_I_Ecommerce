@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <header> 
+    <section class="header-section">
+        <h2>Frete Gratis para todo o Brasil nas compras acima de <span class="span">R$300 </span> </h2>
+        </section>
+    <div class="nav-bar">
+
+        <nav>
+            <a class="logo"href="logo">Logo da empresa</a>
+            
+            <ul class="list-menu">
+                <li><a href="#">Home</a></li>               
+            
+                <li><a href="#">Categorias</a></li>
+            
+                <li><a href="#">Ofertas</a></li>
+            
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+            <div id="divBusca">
+                
+                <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <button id="btnBusca">Buscar</button>
+              </div>
+    
+            
+        </nav>
+    </div>
+</header>
+    <!-- <main>
+        Cadastro
+        <form action="">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" required name="nome" id="nome" placeholder="Nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" required name="email"  id="email"  placeholder="Digite seu e-email:">
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password"  required name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="controles">
+                <button type="reset">Resetar</button>
+                <button type="submit">Enviar</button>
+            </div>
+
+
+        </form>
+    </main> -->
+
+
+  
+
+
+    <div class='container'>
+         <div class='card'>
+        <h1> Cadastrar </h1>
+    
+    <div id='msgError'></div>
+    <div id='msgSuccess'></div>
+    
+            <div class="label-float">
+               <input type="text" id="nome" placeholder=" " required>
+               <label id="labelNome" for="nome">Nome</label>
+            </div>
+
+            <div class="label-float">
+               <input type="text" id="usuario" placeholder=" " required>
+               <label id="labelUsuario" for="usuario">Usuário</label>
+            </div>
+            
+            <div class="label-float">
+               <input type="password" id="senha" placeholder=" " required>
+               <label id="labelSenha" for="senha">Senha</label>
+               <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+               
+            </div>
+
+            <div class="label-float">
+               <input type="password" id="confirmSenha" placeholder=" " required>
+               <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
+               <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            
+            <div class='justify-center'>
+               <button onclick='cadastrar()'>Cadastrar</button>
+            </div>
+
+    
+  </div>
+    </div>
+</body>
+</html>

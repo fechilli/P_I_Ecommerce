@@ -1,0 +1,125 @@
+.conteudo-main-detalhe{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteudo-esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.itens{
+    align-self: flex-end;
+}
+
+.img-selecionado{
+    max-width: 400px; 
+    
+}
+
+.img-selecionado img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagens-pequenas{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-evenly;
+    gap:10px;
+}
+
+.imagem img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.conteudo-direita{
+    width: 100%;
+}
+
+.btn-menos{
+    max-width: 15px;
+    cursor: pointer;
+}
+
+.btn-mais{
+    max-width: 15px;
+    cursor: pointer;
+}
+.btn-carrinho img{
+    max-width: 15px;
+    display: flex;
+    flex-direction: column
+}
+.conteudo-direita{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.conteudo-detalhe{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-direita h6{
+    color: brown;
+}
+
+.conteudo-direita p{
+    
+    color: grey;
+    font-size: 14px;
+}
+.opcoes{
+    display: flex;
+    gap: 20px;
+}
+
+.preco{
+    font-size:16px;
+    font-weight: 700;
+}
+.desconto{
+    font-size:14px;
+    color: rgb(94, 86, 86);
+}
+.quantidade{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color:  rgb(231, 227, 227);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+
+.quantidade span{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.btn-carrinho{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color:brown;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 12px;font-weight: 700;
+
+
+}
+
+

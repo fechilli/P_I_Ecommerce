@@ -1,0 +1,39 @@
+[
+
+    {
+        "id": 1,
+        "nome": "camiseta comum",
+        "preco": 35.00,
+        "cor": "branca",
+        "tamanho": "m",
+        "detalhes": "camiseta e seus detalhes",
+        "img":"./public/img/camiseja.jpeg"
+        
+        
+    },
+    
+    {
+        "id": 2,
+        "nome": "camiseta comum",
+        "preco": 35.00,
+        "cor": "branca",
+        "tamanho": "m",
+        "detalhes": "camiseta e seus detalhes",
+        "img":"./public/img/camiseja.jpeg"
+        
+        
+    },
+    
+    {
+        "id": 3,
+        "nome": "camiseta comum",
+        "preco": 35.00,
+        "cor": "branca",
+        "tamanho": "m",
+        "detalhes": "camiseta e seus detalhes",
+        "img":"./public/img/camiseja.jpeg"
+        
+        
+    }
+]
+
