@@ -1,5 +1,5 @@
 const produtos = require('../database/produtos.json')
-const path = require('path')
+
 const ProdutosController = {
 
     show:(req,res)=>{
@@ -10,19 +10,19 @@ const ProdutosController = {
     },
 
     cadastroProduto:  (req, res) =>{
-        res.sendFile(path.resolve('./views/cadastro.html'))
+        res.render('cadastro.ejs')
     },
 
     listaDeProdutos:(req, res) =>{
-        res.sendFile(path.resolve('./views/index.html'))
+        res.render('lista-produtos.ejs')
     },
 
     detalheProduto: (req, res) =>{
-        res.sendFile(path.resolve('./views/detalhe-produto.html'))
+        res.render('detalhe-produto.ejs')
     },
 
     carinhoProduto: (req, res) =>{
-        res.sendFile(path.resolve('./views/carrinho.html'))
+        res.render('carrinho.ejs')
     }
 
 };

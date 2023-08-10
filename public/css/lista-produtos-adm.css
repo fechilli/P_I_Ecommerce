@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh
+}
+table {
+    width: 70%;   
+    border-collapse: collapse;
+    
+    
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th{
+    border: 1px solid black;
+    
+}
+
+td >img{
+    width: 100px; /* Definindo a largura da imagem */
+    height: auto; /* Mantendo a proporção original da imagem */
+}
+
+td >h3{
+    width: 200px ;
+    font-size: 10px;
+   
+   
+}
+
+td >a{
+    background-color: rgb(186, 190, 206);
+    border: solid 1px black;
+    padding: 3px;
+    text-decoration: none;
+    margin: 0;
+    height: 3vh;
+    display: flex;
+    justify-content: center; /* Alinhar horizontalmente o conteúdo */
+    align-items: center; /* Alinhar verticalmente o conteúdo */
+    
+    
+
+}
+
+a{
+    background-color: rgb(186, 190, 206);
+    border: solid 1px black;
+    padding: 3px;
+    text-decoration: none;
+    margin-top: 0;
+    height: 3vh;
+    
+    
+}

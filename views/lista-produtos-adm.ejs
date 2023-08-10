@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/lista-produtos-adm.css">
+    <title>Document</title>
+</head>
+<body>
+  <a href="/adm/produtos/crate" class="btn">Adicionar novo Produto</a>
+    <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>Edição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% for(const p of produtos) { %>
+          <tr>
+            
+            <td><h3><%= p.id %></h3><img src="<%= p.img %>" alt="foto-do-arquivo"></td>
+            <td><h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae laudantium perspiciatis voluptate quibusdam soluta optio reiciendis doloribus aperiam officia, cum quidem beatae accusantium, suscipit praesentium et sint incidunt eos hic. </h3></td>
+            <td>
+              
+                <a href="">Editar</a>
+                <a href="">Remover</a>
+            
+            </td>
+          </tr>
+          <% } %>
+          
+        </tbody>
+      </table>
+       
+</body>
+</html>
