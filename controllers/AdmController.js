@@ -21,10 +21,29 @@ const AdmController ={
     },
 
     gravarProdutos: (req, res) => {
-        console.log(req.body)
-        res.send(req.body)
-    }
+      
+        let pizza = {
+            nome: req.body.nome,
+            preco: Number(req.body.preço),
+            cor: req.body.cor,
+            tamanho: req.body.tamanho,
+            detalhes: req.body.Detalhes,
+            img:"/img/roupa6.jpg"
+            
+        }
+        
+        ProdutosServices.adicionarProduto(pizza)
 
+        res.redirect('/adm/produtos')
+       
+        
+    },
+
+    editarProdutos:(req, res) =>{
+       console.log(req.params.id )
+    },
+
+  
 
 }
 

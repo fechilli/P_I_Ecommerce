@@ -6,6 +6,12 @@ const ProdutosController = {
 
         const produto = produtos
 
+
+
+
+    
+
+
       res.render('index.ejs', produto)
     },
 
@@ -23,7 +29,14 @@ const ProdutosController = {
 
     carinhoProduto: (req, res) =>{
         res.render('carrinho.ejs')
+    },
+
+    buscarProdutos:(req, res) =>{
+        
+        let trecho = req.query.busca
+        res.send(trecho + "oieee")
     }
+
 
 };
 

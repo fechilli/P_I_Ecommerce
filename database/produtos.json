@@ -1,75 +1,56 @@
 [
-
     {
         "id": 1,
         "nome": "camiseta comum",
-        "preco": 35.00,
+        "preco": 35,
         "cor": "branca",
         "tamanho": "m",
         "detalhes": "camiseta e seus detalhes",
-        "img":"/img/camiseta.jpg"
-        
-        
+        "img": "/img/camiseta.jpg"
     },
-    
     {
         "id": 2,
         "nome": "camiseta comum",
-        "preco": 35.00,
+        "preco": 35,
         "cor": "branca",
         "tamanho": "m",
         "detalhes": "camiseta e seus detalhes",
-        "img":"/img/camiseta.jpg"
-        
-        
+        "img": "/img/camiseta.jpg"
     },
-    
     {
         "id": 3,
         "nome": "camiseta comum",
-        "preco": 35.00,
+        "preco": 35,
         "cor": "branca",
         "tamanho": "m",
         "detalhes": "camiseta e seus detalhes",
-        "img":"/img/camiseta.jpg"
-        
-        
+        "img": "/img/camiseta.jpg"
     },
-    
     {
         "id": 4,
         "nome": "camiseta comum",
-        "preco": 35.00,
+        "preco": 35,
         "cor": "branca",
         "tamanho": "m",
         "detalhes": "camiseta e seus detalhes",
-        "img":"/img/camiseta.jpg"
-        
-        
+        "img": "/img/camiseta.jpg"
     },
-    
     {
         "id": 5,
         "nome": "camiseta comum",
-        "preco": 35.00,
+        "preco": 35,
         "cor": "branca",
         "tamanho": "m",
         "detalhes": "camiseta e seus detalhes",
-        "img":"/img/camiseta.jpg"
-        
-        
+        "img": "/img/camiseta.jpg"
     },
-    
     {
         "id": 6,
         "nome": "camiseta comum",
-        "preco": 35.00,
+        "preco": 35,
         "cor": "branca",
         "tamanho": "m",
         "detalhes": "camiseta e seus detalhes",
-        "img":"/img/roupa5.jpg"
-        
-        
+        "img": "/img/roupa5.jpg"
     }
 ]
-
