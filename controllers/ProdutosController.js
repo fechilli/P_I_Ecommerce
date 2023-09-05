@@ -4,15 +4,10 @@ const ProdutosController = {
 
     show:(req,res)=>{
 
-        const produto = produtos
+        const produto = produtos  
 
 
-
-
-    
-
-
-      res.render('index.ejs', produto)
+      res.render('index.ejs', {produto})
     },
 
     cadastroProduto:  (req, res) =>{
@@ -24,6 +19,8 @@ const ProdutosController = {
     },
 
     detalheProduto: (req, res) =>{
+        const parametro = req.params.id;
+        console.log(parametro)
         res.render('detalhe-produto.ejs')
     },
 

@@ -7,9 +7,9 @@ const ProdutosController = require('./controllers/ProdutosController')
 
 //mostra a index
 router.get('/', ProdutosController.show)
+router.get('/produto/detalhe/:id',ProdutosController.detalheProduto);
 router.get('/cadastro', ProdutosController.cadastroProduto);
 router.get('/produtos', ProdutosController.listaDeProdutos);
-router.get('/produto/detalhe/:id',ProdutosController.detalheProduto);
 router.get('/produto/carrinho',  ProdutosController.carinhoProduto);
 router.get('/buscar',ProdutosController.buscarProdutos)
 

@@ -25,94 +25,24 @@
 
     <div class="produtos-container">
         <div class="box">
-            <a href=""><img src="/img/camiseta.jpg" alt="">
-                <h3>Roupa modelo tal....</h3></a>
-            
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa2.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa3.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa4.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa5.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa6.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa6.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa6.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa6.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa6.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/img/roupa6.jpg" alt="">
-            <h3>Roupa modelo tal....</h3>
-            <div class="conteudo">
-                <span>$39,40</span>
-                <a href="#">Adicione ao carrinho</a>
-            </div>
-        </div>
+            <% for(p of produto) { %>
+
+                <div class="link">
+
+                    <a class="produtos-link" href="./produto/detalhe/<%= p.id %>">
+                        <img src=<%= p.img %> alt="<%= p.nome %>">
+                        <h3> <%= p.detalhes %>> </h3>
+                    </a>
+                </div>
+                
+                <div class="conteudo">
+                    <span>$<%= p.preco %>></span>
+                    <a href="#">Adicione ao carrinho</a>
+                </div>
+
+
+            <% } %>
+
     </div>
    </section>
 
