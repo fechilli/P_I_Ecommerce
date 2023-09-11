@@ -4,7 +4,7 @@ const path = require('path');
 const router = require('./router')
 
 
-const port = 3000
+const port = 3001
 
 app.set('view engine','ejs')
 

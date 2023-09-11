@@ -1,6 +1,9 @@
 const express = require('express');
 const AdmController = require('./controllers/AdmController');
 const editParts = require('./controllers/EditParts');
+const  multer   =  require ( 'multer' );
+
+const  upload  =  multer ( {  destino : 'public/img'  } )
 
 const router = express.Router();
 const ProdutosController = require('./controllers/ProdutosController')

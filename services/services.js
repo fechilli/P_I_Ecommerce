@@ -7,6 +7,16 @@ function carregarProdutos() {
     return produtos;
 }
 
+function carregaProduto(idDoProdutohttps://www.google.com/sorry/index#){
+    let produto = produtos.find(p => p.id == idDoProduto);
+    if(produto == undefined){
+        throw new Error("Pizza inexistente");
+    }
+    return produto;
+
+    
+}
+
 function adicionarProduto(produto) {
 
     if(produtos.length >0){
@@ -33,6 +43,7 @@ function salvar(){
 const ProdutosServices = {
     carregarProdutos,
     adicionarProduto,
+    carregaProduto,
     salvar 
 }
 module.exports = ProdutosServices;
